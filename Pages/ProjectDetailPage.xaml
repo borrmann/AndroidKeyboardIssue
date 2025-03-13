@@ -147,23 +147,7 @@
                         BindableLayout.ItemTemplateSelector="{StaticResource ChipDataTemplateSelector}"/>
                 </ScrollView>
 
-                <Entry />
-                <Entry />
-                <Entry />
-                <Entry />
-                <Entry />
-                <Entry />
-                <Entry />
-                <Entry />
-                <Entry />
-                <Entry />
-                <Entry />
-                <Entry />
-                <Entry />
-                <Entry />
-                <Entry />
-                <Entry />
-                <Entry />
+                <Entry Placeholder="FOCUS ME"/>
 
                 <Button Text="Save" 
                     HeightRequest="{OnIdiom 44, Desktop=60}"
@@ -194,6 +178,9 @@
                         </DataTemplate>
                     </BindableLayout.ItemTemplate>
                 </VerticalStackLayout>
+
+                <Entry Placeholder="FOCUS ME" />
+
             </VerticalStackLayout>
         </ScrollView>
 
